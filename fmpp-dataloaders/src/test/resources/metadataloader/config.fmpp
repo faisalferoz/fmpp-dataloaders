@@ -1,0 +1,3 @@
+data: {
+	tables : com.google.code.fmppdataloaders.metadataloader.MetaDataLoader(org.hsqldb.jdbc.JDBCDriver,"jdbc:hsqldb:mem:testdb;shutdown=true","SA","","ALL_NUMERIC, ALL_CHAR, ALL_LOB, ALL_DATE, ALL_DATATYPE, archive_data")
+}
