@@ -102,12 +102,15 @@ public class MetaDataLoader implements DataLoader {
 	{
 		Table table = new Table ();
 		List<Attribute> attributes = new ArrayList<Attribute>();
-
-		ResultSetMetaData metaData = con.createStatement().executeQuery( getSql( tableName ) ).getMetaData();
-
-		if ( metaData == null )
+		ResultSetMetaData metaData = null;
+		
+		try 
 		{
-			throw new Exception( "Table " + tableName + " does not exist." );
+			metaData = con.createStatement().executeQuery( getSql( tableName ) ).getMetaData();
+		}
+		catch (SQLException sqle)
+		{
+			throw new Exception( "Table " + tableName + " does not exist.", sqle );
 		}
 
 		for (int i = 1; i <= metaData.getColumnCount(); i++) {
