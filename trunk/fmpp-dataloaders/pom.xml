@@ -1,10 +1,38 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<parent>
+		<groupId>org.sonatype.oss</groupId>
+		<artifactId>oss-parent</artifactId>
+		<version>5</version>
+	</parent>
+
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.google.code.fmpp-dataloaders</groupId>
+	<groupId>com.googlecode.fmpp-dataloaders</groupId>
 	<artifactId>fmpp-dataloaders</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
+	<packaging>jar</packaging>
 	<name>FMPP-DataLoaders</name>
+	<description>This project hosts set of custom data loaders for the FMPP project.</description>
+	<url>http://code.google.com/p/fmpp-dataloaders/</url>
+	<licenses>
+		<license>
+			<name>MIT License</name>
+			<url>http://www.opensource.org/licenses/mit-license.php</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<scm>
+		<connection>scm:svn:http://fmpp-dataloaders.googlecode.com/svn/trunk/</connection>
+		<developerConnection>scm:svn:https://fmpp-dataloaders.googlecode.com/svn/trunk/</developerConnection>
+		<url>http://fmpp-dataloaders.googlecode.com/svn/trunk/</url>
+	</scm>
+
+	<issueManagement>
+		<system>Google Code Issue Manager</system>
+		<url>http://code.google.com/p/fmpp-dataloaders/issues/list</url>
+	</issueManagement>
 
 	<properties>
 		<maven.test.failure.ignore>false</maven.test.failure.ignore>
@@ -48,13 +76,6 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
-	<description>This project hosts set of custom data loaders for the FMPP project.</description>
-	<url>http://code.google.com/p/fmpp-dataloaders/</url>
-	<issueManagement>
-		<system>Google Code Issue Manager</system>
-		<url>http://code.google.com/p/fmpp-dataloaders/issues/list</url>
-	</issueManagement>
 
 	<build>
 		<pluginManagement>

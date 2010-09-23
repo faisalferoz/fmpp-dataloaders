@@ -21,7 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  ******************************************************************************/
-package com.google.code.fmppdataloaders.metadataloader;
+package com.googlecode.fmppdataloaders.metadataloader;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -30,9 +30,9 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.google.code.fmppdataloaders.metadataloader.domain.Attribute;
-import com.google.code.fmppdataloaders.metadataloader.domain.Table;
-import com.google.code.fmppdataloaders.utils.StringUtils;
+import com.googlecode.fmppdataloaders.metadataloader.domain.Attribute;
+import com.googlecode.fmppdataloaders.metadataloader.domain.Table;
+import com.googlecode.fmppdataloaders.utils.StringUtils;
 
 import fmpp.Engine;
 import fmpp.tdd.DataLoader;

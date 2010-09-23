@@ -21,7 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  ******************************************************************************/
-package com.google.code.fmppdataloaders.metadataloader;
+package com.googlecode.fmppdataloaders.metadataloader;
 
 import java.io.File;
 import java.util.Arrays;
@@ -31,7 +31,7 @@ import org.junit.Test;
 
 import static junit.framework.Assert.*;
 
-import com.google.code.fmppdataloaders.AbstractFMPPDataLoaderTest;
+import com.googlecode.fmppdataloaders.AbstractFMPPDataLoaderTest;
 
 public class MetaDataLoaderTests extends AbstractFMPPDataLoaderTest {
 	
