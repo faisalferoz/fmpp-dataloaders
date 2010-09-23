@@ -21,7 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  ******************************************************************************/
-package com.google.code.fmppdataloaders;
+package com.googlecode.fmppdataloaders;
 
 import java.io.File;
 
